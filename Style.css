@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background: #fff;
+    font-size: 16px;
+    font-family: Math;
+}
+
+p {
+    font-size: 18px;
+    font-family: josefin sans;
+}
+
+.head {
+    background-color: #333333;
+    height: 150px;
+}
+
+.logo {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    border-radius: 5%;
+}
+
+.navbar ul li {
+    display: inline;
+    text-align: center;
+}
+
+.navbar li a {
+    color: #fff;
+    padding: 0px 15px;
+}
+
+.navbar ul {
+    position: absolute;
+    top: 14%;
+    left: 35%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    padding: 15px 0px;
+}
+
+.navbar li a:hover {
+    color: #ffffffab;
+}
+
+.font-error {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.error-content {
+    text-align: center;
+}
+
+.error-content button {
+    margin: 20px 0px 30px 0px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: 0;
+    border: 1px solid black;
+}
+
+.error {
+    background-color: #e0e0e0a6;
+}
+
+.features-box {
+    text-align: center;
+    margin: 15px;
+}
+
+.content-box-1 {
+    position: absolute;
+    border: 1px solid #808080;
+    margin: 0px 950px 40px 100px;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.content-box-1:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.content-box-1 i,
+h2,
+p {
+    padding: 10px;
+    text-align: center;
+}
+
+.bxs-zap {
+    margin-left: 80px;
+    font-size: 3rem;
+}
+
+.content-box-2 {
+    position: relative;
+    left: 25%;
+    border: 1px solid #808080;
+    margin: 0px 850px 40px 150px;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.content-box-2:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.content-box-2 i,
+h2,
+p {
+    padding: 10px;
+    text-align: center;
+}
+
+.bxs-shield {
+    margin-left: 115px;
+    font-size: 3rem;
+}
+
+
+.content-box-3 {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    border: 1px solid #808080;
+    margin: 0px 100px 40px 600px;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.content-box-3:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.content-box-3 i,
+h2,
+p {
+    padding: 10px;
+    text-align: center;
+}
+
+.bxs-heart {
+    margin-left: 80px;
+    font-size: 3rem;
+}
+
+.image-collections{
+    display: block;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.image-collections img{
+    width: 300px;
+    height: 300px;
+}
+
+.post-1 {
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px 30px 0px 30px;
+    border: 1px solid grey;
+    margin: 0px 800px 0px 120px;
+    cursor: pointer;
+}
+
+.post-1 h4{
+    padding: 10px 0px;
+}
+
+.post-1:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-2 {
+    position: relative;
+    border-radius: 10px;
+    padding-top: 10px;
+    border: 1px solid grey;
+    margin: 20px 490px 0px 510px;
+    cursor: pointer;
+}
+
+.post-2 h4{
+    padding: 10px 0px;
+}
+
+.post-2:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-3 {
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 597px 410px 0px 580px;
+    padding: 10px 30px 0px 30px;
+    top: 34%;
+    left: 23%;
+    cursor: pointer;
+}
+
+.post-3 h4{
+    padding: 10px 0px;
+}
+
+.post-3:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-4 {
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px 30px 0px 30px;
+    border: 1px solid grey;
+    margin: 30px 800px 0px 120px;
+    cursor: pointer;
+}
+
+.post-4 h4{
+    padding: 10px 0px;
+}
+
+.post-4:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-5 {
+    position: relative;
+    border-radius: 10px;
+    padding: 10px 25px 0px 25px;
+    border: 1px solid grey;
+    margin: 30px 490px 0px 510px;
+    cursor: pointer;
+}
+
+.post-5 h4{
+    padding: 10px 0px;
+}
+
+.post-5:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.post-6 {
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 605px 410px 0px 580px;
+    padding: 10px 30px 0px 30px;
+    top: 93%;
+    left: 23%;
+    cursor: pointer;
+}
+
+.post-6 h4{
+    padding: 10px 0px;
+}
+
+.post-6:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
