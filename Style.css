@@ -95,7 +95,7 @@ p {
     cursor: pointer;
 }
 
-.content-box-1:hover{
+.content-box-1:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
@@ -122,7 +122,7 @@ p {
     cursor: pointer;
 }
 
-.content-box-2:hover{
+.content-box-2:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
@@ -151,7 +151,7 @@ p {
     cursor: pointer;
 }
 
-.content-box-3:hover{
+.content-box-3:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
@@ -168,13 +168,13 @@ p {
     font-size: 3rem;
 }
 
-.image-collections{
+.image-collections {
     display: block;
     text-align: center;
     margin: 0px 0px 20px 0px;
 }
 
-.image-collections img{
+.image-collections img {
     width: 300px;
     height: 300px;
 }
@@ -188,11 +188,11 @@ p {
     cursor: pointer;
 }
 
-.post-1 h4{
+.post-1 h4 {
     padding: 10px 0px;
 }
 
-.post-1:hover{
+.post-1:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
@@ -206,11 +206,11 @@ p {
     cursor: pointer;
 }
 
-.post-2 h4{
+.post-2 h4 {
     padding: 10px 0px;
 }
 
-.post-2:hover{
+.post-2:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
@@ -226,11 +226,11 @@ p {
     cursor: pointer;
 }
 
-.post-3 h4{
+.post-3 h4 {
     padding: 10px 0px;
 }
 
-.post-3:hover{
+.post-3:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
@@ -244,11 +244,11 @@ p {
     cursor: pointer;
 }
 
-.post-4 h4{
+.post-4 h4 {
     padding: 10px 0px;
 }
 
-.post-4:hover{
+.post-4:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
@@ -262,11 +262,11 @@ p {
     cursor: pointer;
 }
 
-.post-5 h4{
+.post-5 h4 {
     padding: 10px 0px;
 }
 
-.post-5:hover{
+.post-5:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
@@ -282,11 +282,146 @@ p {
     cursor: pointer;
 }
 
-.post-6 h4{
+.post-6 h4 {
     padding: 10px 0px;
 }
 
-.post-6:hover{
+.post-6:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
+}
+
+.user-container {
+    height: 350px;
+    background-color: #e0e0e0a6;
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+}
+
+.user-container h1 {
+    padding-top: 30px;
+}
+
+.user-box-1 {
+    position: absolute;
+    border: 1px solid #808080;
+    margin: 50px 950px 40px 100px;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.user-box-1:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.bxs-user-circle {
+    font-size: 3rem;
+}
+
+.user-box-2 {
+    position: absolute;
+    left: 30%;
+    border: 1px solid #808080;
+    margin: 50px 550px 40px 100px;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.user-box-2:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.user-box-3 {
+    position: relative;
+    left: 60%;
+    border: 1px solid #808080;
+    margin: 50px 950px 40px 100px;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.user-box-3:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-content {
+    margin: 0px 0px 50px 500px;
+}
+
+.form-content label {
+    padding: 10px 0px;
+
+}
+
+.form-content #text,
+#message {
+    padding: 5px;
+    width: 350px;
+    border-radius: 3px;
+    border: 1px solid black;
+    outline: 0;
+}
+
+.form-content label {
+    display: block;
+}
+
+.btn{
+    margin: 10px 0 0 0;
+}
+
+.btn button{
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid black;
+    outline: 0;
+}
+
+.foot {
+    background-color: #333333;
+    height: 100px;
+}
+
+.credits {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.credits h4 {
+    color: #16b3fc;
+}
+
+.credits a {
+    color: #fff;
+}
+
+.credits a:hover {
+    color: #ffffffaf;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links .fa-xl {
+    font-size: 1.8em;
+    margin-left: 15px;
+    color: #fff;
+    padding: 10px 0px 20px 0px;
+}
+
+.social-links .fa-xl:hover {
+    color: #ffffffaf;
 }
